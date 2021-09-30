@@ -14,7 +14,7 @@ Source code for the slides is in this folder. The slides are live here:
 
 Part 1, Concept Motivation, of the project is out now! Here is the [project information](../project/Project-part1.pdf).
 
-**Project Part 1 is due: 10/01/2021**
+**Project Part 1 is due: 10/12/2021**
  
 ## Homework
 
@@ -29,7 +29,7 @@ Academic Integrity Reminder: Make sure your lab Github repositories are "private
 
 ## Quiz
 
-The quiz for this module is available via Brightspace. 
+The quiz for this module is available via Canvas. 
 
 **Quiz 3 is due: 10/01/2021**
 
