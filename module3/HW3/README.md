@@ -1,7 +1,7 @@
 # Module 3, Homework 3
 
 ## START HERE
-[Django](https://www.djangoproject.com/) is a python web framework that allows you to quickly develop web applications. This entire homeowrk is loosely based on a set of introductory Django tutorials, also available [here](https://docs.djangoproject.com/en/3.2/intro/tutorial01/). You're going to need a working installation of Python, the package manager 'pip', and finally, Django. 
+[Django](https://www.djangoproject.com/) is a python web framework that allows you to quickly develop web applications. This entire homework is loosely based on a set of introductory Django tutorials, also available [here](https://docs.djangoproject.com/en/3.2/intro/tutorial01/). You're going to need a working installation of Python, the package manager 'pip', and finally, Django. 
 
 ### Install Django via Anaconda Termnial
 A package manager is a tool that keeps a running list of all the packages associated with a particular language on your computer. You can use it to install, update, and remove different types of packages, or libraries. In the past, we had used Anaconda, a package manager with a nice user interface. This module, we'll use the `conda` command in the terminal to use the Anaconda package manager. (Note: ['pip'](https://pip.pypa.io/en/stable/) is a popular package manager for python, but since we started with Anaconda we'll stick with it. If you use pip, then follow [these instructions](https://docs.djangoproject.com/en/3.2/topics/install/#installing-an-official-release-with-pip) instead).
@@ -38,14 +38,14 @@ Introduction to Django: https://cs50.harvard.edu/web/2020/weeks/3/
 
 This tutorial covers some of the things we will do in this homework, plus a few extra things. I strongly recommend following along with the video as going through these concepts a couple of times will help you make sense of the framework and how the different files and components fit together.
 
-### Do you have code editor?
+### Do you have a code editor?
 
 If not, I recommend either [VS Code](https://code.visualstudio.com/) or [Sublime Text](https://www.sublimetext.com/).
 
 ## 1. Creating a skeleton web application
 > This section is a customized version of [part 1 of this Django tutorial](https://docs.djangoproject.com/en/3.2/intro/tutorial01/).
 
-### Create a 'HW' project
+### Create a 'HW3' project
 
 Open your terminal! Navigate to the place (using the `cd` command) where you would like to create your project. (In my examples, I have a "Code" folder that I put all my homeworks inside). We'll create a skeleton project called 'HW3'. You will upload everything inside this folder as part of your homework submission!
 
