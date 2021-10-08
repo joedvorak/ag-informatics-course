@@ -1,6 +1,6 @@
-# Module 4, Lab 4
+# Module 4, Homework 4
 
-## BEFORE THE LAB
+## BEFORE THE HOMEWORK
 
 ### Tutorial Video
 Watch the CS50 video on SQL, Models, and Migrations: https://docs.djangoproject.com/en/3.2/howto/initial-data/
@@ -11,11 +11,11 @@ We'll be making little class diagrams. you can try:
 - Visual Paradigm: https://online.visual-paradigm.com/app/diagrams/#diagram:proj=0&type=ClassDiagram
 - Whatever drawing tool you prefer.
 
-### Lab Submission Folder Structure
-You will be submitting a few different things. Create a folder called **'lab4'**. Create a subfolder called **'images'**. You will be uploading screenshots and diagrams throughout this lab into this folder. You will need to give each image the appropriate filename so that we know what it is. You will also create a README.md file that describes your solution. Use this [Github Markdown Reference Guide](https://guides.github.com/features/mastering-markdown/) to make sure your description is correctly formatted. You will, for example, want to include the image of your data model and final app in the README.md file (we'll describe this later). 
+### Homework Submission Folder Structure
+You will be submitting a few different things. Create a folder called **'HW4'**. Create a subfolder called **'images'**. You will be uploading screenshots and diagrams throughout this homework into this folder. You will need to give each image the appropriate filename so that we know what it is. You will also create a README.md file that describes your solution. Use this [Github Markdown Reference Guide](https://guides.github.com/features/mastering-markdown/) to make sure your description is correctly formatted. You will, for example, want to include the image of your data model and final app in the README.md file (we'll describe this later). 
 
 ```
-lab4/
+HW4/
   images/
   ACRE/         # Don't create this folder yet, this shows where the Django project you create later will live. 
   README.md
@@ -31,9 +31,9 @@ lab4/
 
 ![ACRE Log Book](img/acre-logbook.jpeg)
 
-The farm manager wants a web application in which all her historical field data resides in a logically structured database that allows for easy searching and exploration of the data. She also a password-protected dashboard that her workers can use to input new data into the the application. **In this lab, you will create a data management Django web application for the ACRE farm management team.**
+The farm manager wants a web application in which all her historical field data resides in a logically structured database that allows for easy searching and exploration of the data. She also a password-protected dashboard that her workers can use to input new data into the the application. **In this homework, you will create a data management Django web application for the ACRE farm management team.**
 
-> README.MD: In your lab's README.md file, under the heading "Project Overview", answer these two questions (briefly):
+> README.MD: In your homework's README.md file, under the heading "Project Overview", answer these two questions (briefly):
 
 1. What is the goal of the proposed web application?
 2. Who are the primary users, and what will each of them need to be able to do.
@@ -55,7 +55,7 @@ Thus, we can glean the following data from the entry:
 
 Based on this data sample, your task is to create a data model for the ACRE production farm operations data set. 
 
-You will draw a simplified UML class diagram as we have previously done in class that represents your proposed application based on this dataset (you should have installed whatever tool you chose before the lab began). Focus on the design of the *data model*, that is, the components of the class diagram that represent the data itself. This diagram will determine what classes you will need to create in your Django app for this lab.
+You will draw a simplified UML class diagram as we have previously done in class that represents your proposed application based on this dataset (you should have installed whatever tool you chose before the homework began). Focus on the design of the *data model*, that is, the components of the class diagram that represent the data itself. This diagram will determine what classes you will need to create in your Django app for this homework.
 
 Your data model should have the following:
 1. Consist of at least 3 classes. 
@@ -66,7 +66,7 @@ Your data model should have the following:
 2. There must be a relationship between your classes. 
    - Relationships will need to be represented through a foreign key attribute.
 
-> IMAGE UPLOAD: Save your data model with the filename **'data-model'** inside your **'lab4/images'** folder.
+> IMAGE UPLOAD: Save your data model with the filename **'data-model'** inside your **'HW4/images'** folder.
 
 > README.MD: Under the heading "Data Model", do the following:
 
@@ -111,13 +111,13 @@ acre/
 
 Start the server and visit http://127.0.0.1:8000/acrelog to confirm that you have a working application.
 
-> IMAGE UPLOAD: Take a screenshot of your working application with the filename **'hello-world'** inside your **'lab4/images'** folder.
+> IMAGE UPLOAD: Take a screenshot of your working application with the filename **'hello-world'** inside your **'HW4/images'** folder.
 
 ## 4. Implement the Data Model & Import the data
 
 First, implement your models in the **'models.py'**. Create a couple of test data entries through either the Django API or the admin dashboard as we previously did in class. 
 
-> IMAGE UPLOAD: Take a screenshot of your admin dashboard showing that you have succesfully created a few data entries in your application. Upload with the filename **'test-data'** inside your **'lab4/images'** folder.
+> IMAGE UPLOAD: Take a screenshot of your admin dashboard showing that you have succesfully created a few data entries in your application. Upload with the filename **'test-data'** inside your **'HW4/images'** folder.
 
 Next, you will need to bulk import some of the data into your application. 
 
@@ -159,7 +159,7 @@ Open your terminal and run the command:
 ```
 Once you have run this command, open your Django app's admin dashboard. Your 10 entries should now appear in your database!
 
-> IMAGE: Take a screenshot of your database with 10 entries with the filename **'sample-data'** inside your **'lab4/images'** folder. Note, we will be testing your fixtures file when grading so it should match :)
+> IMAGE: Take a screenshot of your database with 10 entries with the filename **'sample-data'** inside your **'HW4/images'** folder. Note, we will be testing your fixtures file when grading so it should match :)
 
 ## 5. Create Views for Data Exploration
 
@@ -168,15 +168,15 @@ Create a set of very basic set of views and their corresponding template files (
 1. View the list of fields in the ACRE database in your **'index.html'** page.
 2. View a single field: chronological list of all farm operations in a **'fields.html'**.
 
-> IMAGE: Take a screenshot a single filed that contains several data entires. This should correspond to the second view you created. Save it with the filename **'sample-view'** inside our **'lab4/images'** folder.
+> IMAGE: Take a screenshot a single filed that contains several data entires. This should correspond to the second view you created. Save it with the filename **'sample-view'** inside our **'HW4/images'** folder.
 
-## How to Submit your Lab
+## How to Submit your Homework
 
-Your final lab submission should contain the following files (if your images are another file type that's OK!):
+Your final homework submission should contain the following files (if your images are another file type that's OK!):
 
 ```
-lab4/
-  README.md                   <-- you should have all the pieces described in lab here
+HW4/
+  README.md                   <-- you should have all the pieces described in homework here
   images/                     <-- images you've uploaded
     data-model.png
     hello-world.png
@@ -202,7 +202,7 @@ lab4/
     db.sqlite3
 ```
 
-GO TO BRIGHTSPACE, submit the link to your repository to your Lab4 folder in your repository. You are now done!
+GO TO CANVAS, submit the link to your repository to your HW4 folder in your repository. You are now done!
 
 Holy moly, this was a curly one. You did it!
 
@@ -224,4 +224,4 @@ Specifically about SQL queries in Django: https://docs.djangoproject.com/en/3.2/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
 
-  "Introduction to Agricultural Informatics Course" by [Ankita Raturi, Purdue University](https://github.com/ag-informatics/ag-informatics-course) is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+  "Introduction to Agricultural Informatics Course" by [Ankita Raturi, Purdue University](https://github.com/ag-informatics/ag-informatics-course) and Modified by Joe Dvorak is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.](http://creativecommons.org/licenses/by-nc-sa/4.0/)
