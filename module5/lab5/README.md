@@ -34,7 +34,7 @@ During Lecture 5.3 (Thursday, Nov 4), you will bring a paper prototype of a new 
 
 Revise your prototype based on the feedback you receive.
 
-Next, create a a short (<3 minute) video of your paper prototype. Remember the example show in class, [here's the link again](https://www.youtube.com/watch?v=GrV2SZuRPv0). **Upload the video to brightspace with your final submission.**
+Next, create a a short (<3 minute) video of your paper prototype. Remember the example show in class, [here's the link again](https://www.youtube.com/watch?v=GrV2SZuRPv0). **Upload the video to Canvas with your final submission.**
 
 ## Part 2: Boostrapify your Django app
 As shown in class, link the boostrap framework to your Django app, using the BootstrapCDN. [Instructions here.]https://getbootstrap.com/docs/4.3/getting-started/introduction/
