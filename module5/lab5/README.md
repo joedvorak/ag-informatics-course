@@ -1,4 +1,4 @@
-# Module 5, Lab 5
+# Module 5, Homework 5
 
 ## Before the Lab
 Make sure you are familiar with the following concepts before you begin this section:
@@ -14,18 +14,18 @@ Make sure you are familiar with the following concepts before you begin this sec
 3. I gave a quick demo of how to integrate Boostrap into a Django app, and my code is [available here, in this module's folder](https://github.com/ag-informatics/ag-informatics-course/tree/main/module5/bootstrap-demo). The video is on Brightspace if you'd like to review.
    - Here's a good tutorial on Django + Bootstrap if you are stuck: https://www.ordinarycoders.com/django-bootstrap
 
-### Lab Submission Folder Structure
-You will be submitting a few different things. Create a folder called **'lab5'**. Create a subfolder called **'paper-protoype'** and copy over your previous lab 5.
+### Homework Submission Folder Structure
+You will be submitting a few different things. Create a folder called **'HW5'**. Create a subfolder called **'paper-protoype'** and copy over your previous lab 5.
 
 ```
-lab5/
+HW5/
   paper-prototype/
   ACRE/         # Copy over your previous project, you'll be building on it.
   README.md
 ```
 
 ## Part 1: Paper Prototpying
-During Lecture 5.3 (Tuesday, Oct 26), you will bring a paper prototype of a new feature you'd like to test out for the ACRE Farm Management App you built in Module 4. I will provide feedback and you will do some "lite" user testing on your prototype. As you are watching people "use" your prototype, make notes so that you can answer a questions listed below in your README.MD file
+During Lecture 5.3 (Thursday, Nov 4), you will bring a paper prototype of a new feature you'd like to test out for the ACRE Farm Management App you built in Module 4. I will provide feedback and you will do some "lite" user testing on your prototype. As you are watching people "use" your prototype, make notes so that you can answer a questions listed below in your README.MD file
 
 > In your README.MD file, create a heading called "Paper Prototype User Feedback", and describe, in brief:
 > - Where did users get stuck?
@@ -34,7 +34,7 @@ During Lecture 5.3 (Tuesday, Oct 26), you will bring a paper prototype of a new 
 
 Revise your prototype based on the feedback you receive.
 
-Next, create a a short (<3 minute) video of your paper prototype. Remember the example show in class, [here's the link again](https://www.youtube.com/watch?v=GrV2SZuRPv0). **Upload the video to brightspace with your final submission.**
+Next, create a a short (<3 minute) video of your paper prototype. Remember the example show in class, [here's the link again](https://www.youtube.com/watch?v=GrV2SZuRPv0). **Upload the video to Canvas with your final submission.**
 
 ## Part 2: Boostrapify your Django app
 As shown in class, link the boostrap framework to your Django app, using the BootstrapCDN. [Instructions here.]https://getbootstrap.com/docs/4.3/getting-started/introduction/
@@ -69,17 +69,17 @@ Currently, you have at least 3 views represented via **'index.html'** and **'fie
 ### Secret Sauce
 During your paper-prototyping, you may have come up with some radical ideas to improve your app. I'm going to ask you to implement a SINGLE VIEW to capture some of what your proposed idea was. **Do not make major changes to your model.**
 
-Unless you are ABSOLUTELY confident you can implement this 1-view idea within the lab timeframe, I suggest you discuss your proposed implementation idea with Ankita or Aanis to ensure you're not committing to too much :)
+Unless you are ABSOLUTELY confident you can implement this 1-view idea within the lab timeframe, I suggest you discuss your proposed implementation idea with the instructor to ensure you're not committing to too much :)
 
 Your view and the resulting template should have the title **'secret-sauce'**. 
 
 > In your README.MD file, create a heading called "Secret Sauce" and describe your first prototpye of a very slimmed down version of your paper-prototyped idea.
 
-## How to Submit your Lab
-Your final lab submission should contain the following files:
+## How to Submit your homework
+Your final homework submission should contain the following files:
 
 ```
-lab5/
+HW5/
   README.md                   <-- you should have all the pieces described in lab here
   paper-prototpye/            <-- however many images you want to upload of your paper prototype
     image1.png
@@ -106,7 +106,7 @@ lab5/
     db.sqlite3
 ```
 
-GO TO BRIGHTSPACE, submit the link to your repository, and upload your paper prototype video. It is done!
+GO TO CANVAS, submit the link to your repository, and upload your paper prototype video. It is done!
 
 And so concludes our time with Django. It was long and short and hopefully interesting. Nice work!
 
