@@ -187,8 +187,8 @@
 
         <section>
           <h3>Going to 3D</h3>
-          <p>Points are 1D.</p>
-          <p>Lines and polygons are 2D.</p>
+          <p>Points are 0D.</p>
+          <p>Lines are 1D, and polygons are 2D.</p>
           <p>Polyhedrons and Spheres are 3D.</p>
           <img class="r-stretch" src="img/227px-Small_stellated_dodecahedron.png" />
           <p class="cite"><a href="https://en.wikipedia.org/wiki/File:Small_stellated_dodecahedron.png">Image </a>created by Robert Webb's <a href="http://www.software3d.com/Stella.php">Stella Software</a></p>
@@ -237,8 +237,9 @@
           <p>To transform into Cartesian Coordinates</p>
           <ul>
             <li>WGS84 (GPS or Lat/Long Coordinates): EPSG:4326</li>
-            <li>UTM Zone: 16n Indiana, Central and Eastern Kentucky: EPSG:32616</li>
+            <li>UTM Zone: 16N for Indiana, Central and Western Kentucky: EPSG:32616</li>
           </ul>
+          <p>Gotcha: Sometimes latitude bands are lettered. Kentucky and Southern Indiana are in band S, and Northern Indiana is in band T. The "N" in 16N from EPSG:32616 is for North, instead!</p>
         </section>
         <section>
           <h3>Shapely Example</h3>
