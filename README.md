@@ -72,7 +72,7 @@ Module | Weeks | What's happening?
 [4 - Data Management](https://github.com/ag-informatics/ag-informatics-course/tree/main/module4) | Week 7 & 8 | Lectures 4.1-4.4, Quiz 4, Submit Lab 3, Execute Lab 4
 [5 - User Interfaces](https://github.com/ag-informatics/ag-informatics-course/tree/main/module5) | Week 9 & 10 | Lectures 5.1-5.4, Quiz 5, Submit Lab 4, Execute Lab 
 [6 - Geometric Processing](https://github.com/ag-informatics/ag-informatics-course/tree/main/module6) | Week 11 & 12 | Lectures 6.1-6.4, Quiz 6, Submit Lab 5, Execute Lab 6, Submit Project Part 2
-7 - Future of Ag Tech | Week 13 & 14 | Lectures 7.1-7.4, Quiz 7, Submit Lab 6, Execute Lab 7
+[7 - Future of Ag Tech](https://github.com/ag-informatics/ag-informatics-course/tree/main/module7) | Week 13 & 14 | Lectures 7.1-7.4, Quiz 7, Submit Lab 6, Execute Lab 7
 8 - Reviews and Previews | Week 15 & 16 | Lectures 8.1-8.4, Submit Project Part 3
 
 
@@ -93,7 +93,7 @@ Assessment | Description | Due Dates | Weight
 Quizzes | Due every two weeks, in week 1 of each module | 8/27/2021, 9/10/2021, 9/24/2021, 10/8/2021, 10/22/2021, 11/5/2021, 11/19/2021 | 1% for quizzes 1, 3, 5, and 7. 2% for quiz 2, 4, and 6.
 Labs | Due every two weeks on the Mondays (Holiday exceptions, due next day). | 9/7/2021, 9/20/2021, 10/4/2021, 10/18/2021, 11/1/2021, 11/15/2021, 11/29/2021 | 5% x 7 labs |
 [Project Part 1](https://github.com/ag-informatics/ag-informatics-course/tree/main/module3) | Concept motivation: select 3 papers and write a combined reflection on an agricultural informatics problem | 10/01/2021 | 5%
-[Project Part 2](https://github.com/ag-informatics/ag-informatics-course/blob/main/project/Project-part1.pdf) | Concept proposal: a short proposal of a research/development concept | 11/15/2021 | 10%
+[Project Part 2](https://github.com/ag-informatics/ag-informatics-course/blob/main/project/Project-part2.pdf) | Concept proposal: a short proposal of a research/development concept | 11/22/2021 | 10%
 Project Part 3 | Concept presentation and write up of your proposed approach/solution in class during lecture time (same day submission). | 12/2/2021 | 5% presentation + 10% writeup
 Exam | Take home exam released during finals week. | Date TBD | 25%
 
