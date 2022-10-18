@@ -17,7 +17,7 @@ Let's move this file into your repository for you to use:
 2. Rename "Lab6-Skeleton.ipynb" to "Lab6-YOURNAME.ipnyb". THIS IS THE FILE YOU WILL BE WORKING IN
 3. Replace the README.md file with your own.
 4. Git add, commit, and push so that your repository now contains these items.
-5. View your new Jupyter Notebook in your github repository to confirm everything is in the right place. It should look like the image below.
+5. View your new Jupyter Notebook in your github repository to confirm everything is in the right place.
 
 ## Open your Jupyter Notebook
 
