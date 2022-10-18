@@ -20,7 +20,7 @@ Project Part 2, Proposed Approach out now! Here is the [project information](../
 
 ## Labs
 
-Instructions for the Labs, including submission instructions, can be found inside the lab sub-folders. COMING SOON!
+Instructions for the Labs, including submission instructions, can be found inside the lab sub-folders.
 
 **Lab 6 is due: 11/15/2021** 
 
